@@ -309,7 +309,7 @@ p {
  *  Hyperlink styling */
 
 a { 
-    color: #777;
+    color: #999;
     text-decoration: none;
 }
 
@@ -445,12 +445,12 @@ sub {
 /*  Highlighting colors */
 ::selection { 
     color: #ffffff; 
-    background: #777; 
+    background: #999; 
 }
 
 ::-moz-selection { 
     color: #ffffff; 
-    background: #777; 
+    background: #999; 
 }
 
 /*  Blockquotes */

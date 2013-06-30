@@ -309,7 +309,7 @@ p {
  *  Hyperlink styling */
 
 a { 
-    color: #999;
+    color: #6d6d6d;
     text-decoration: none;
 }
 
@@ -445,12 +445,12 @@ sub {
 /*  Highlighting colors */
 ::selection { 
     color: #ffffff; 
-    background: #999; 
+    background: #6d6d6d; 
 }
 
 ::-moz-selection { 
     color: #ffffff; 
-    background: #999; 
+    background: #6d6d6d; 
 }
 
 /*  Blockquotes */
@@ -752,13 +752,6 @@ img.avatar {
     border-radius: 35px;
 }
 
-img.forkme {
-    position: fixed; 
-    top: 0; 
-    right: 0; 
-    border: 0;
-}
-
 @media (min-width: 40em) {
     .container {
         max-width: 50%;
@@ -840,8 +833,8 @@ img.forkme {
 
 .screen-reader { 
     position: absolute; 
-    top: -9999em; 
-    left:-9999em; 
+    top: -6d6d6d9em; 
+    left:-6d6d6d9em; 
 }
 
 
@@ -917,7 +910,7 @@ img.forkme {
     /*  Change border color on blockquotes and preformatted text.
      *  Avoid page breaks inside the content */
     pre, blockquote {
-        border-color: #999;
+        border-color: #6d6d6d;
         page-break-inside: avoid;
     }
 

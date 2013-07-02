@@ -56,5 +56,5 @@
 	
 	w.addEventListener( "orientationchange", restoreZoom, false );
 	w.addEventListener( "devicemotion", checkTilt, false );
-
+    
 })( this );

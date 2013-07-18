@@ -754,7 +754,7 @@ img.avatar {
 
 @media (min-width: 40em) {
     .container {
-        width: 50%;
+        max-width: 50%;
         margin-top: 3.5em;
     }
 }

@@ -10,6 +10,16 @@ body {
 a {
 	color: #6d6d6d;
 }
+.profile:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.profile:hover:before {
+  content: '{';
+}
+.profile:hover:after {
+  content: '}';
+}
 .container { 
   max-width: 80em;
   width: 88%;
@@ -28,10 +38,14 @@ img.avatar {
   border-right: .071428571em solid #ddd; 
 }
 .fork {
-	position: absolute; 
+	position: fixed; 
 	top: 0; 
 	right: 0; 
 	border: 0;
+}
+.copyright {
+  position: fixed;
+  bottom: 3rem;
 }
 @media (min-width: 40em) {
   .container {

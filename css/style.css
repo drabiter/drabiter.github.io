@@ -21,11 +21,11 @@ a {
   content: '}';
 }
 .container { 
-  max-width: 80em;
-  width: 88%;
+  /*max-width: 80em;*/
+  max-width: 50%;
   margin-left: auto; 
   margin-right: auto;
-  margin-top: 1.5em;
+  margin-top: 3.5em;
 }
 img.avatar {
   -moz-border-radius: 35px;
@@ -47,9 +47,14 @@ img.avatar {
   position: fixed;
   bottom: 3rem;
 }
-@media (min-width: 40em) {
+/*for desktop*/
+@media handheld, only screen and (max-width: 767px) {
   .container {
-    max-width: 50%;
-    margin-top: 3.5em;
+    max-width: 88%;
+    margin-top: 1.5em;
+  }
+  .mobile-inline-list li {
+    display: inline;
+    margin-left: 1rem;
   }
 }

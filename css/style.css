@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+body {
+	font-family: "Oxygen","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px; 
+  line-height: 1.5; 
+  color: #272727; 
+  background: #ffffff;
+  background-image: url('../img/white_wall_hash.png');
+}
+a {
+	color: #6d6d6d;
+}
+.container { 
+  max-width: 80em;
+  width: 88%;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+img.avatar {
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+.border-bottom {
+  border-bottom: .071428571em solid #ddd; 
+}
+.border-right {
+  border-right: .071428571em solid #ddd; 
+}
+.fork {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+}
+@media (min-width: 40em) {
+  .container {
+    max-width: 50%;
+    margin-top: 3.5em;
+  }
+}

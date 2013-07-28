@@ -16,8 +16,9 @@
 
     
     <!-- stylesheet -->
-    <link rel="stylesheet" href="css/kraken.css" type="text/css">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/kraken.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -26,17 +27,17 @@
 
    
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+    <!-- <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"> -->
 
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <!-- <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png"> -->
 
     <!-- MS Homescreen Icons -->
-    <meta name="msapplication-TileColor" content="#0088cc">
-    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+    <!-- <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png"> -->
 
   </head>
 
@@ -54,7 +55,7 @@
 
     <section class="container">
 
-        <div class="row border-bottom">
+        <div class="row">
             <div class="grid-2">
                 <img class="avatar" src="img/avatar.png" width="125" height="125">
             </div>
@@ -65,8 +66,8 @@
         </div>
 
         <div class="row space-top">
-            <div class="grid-2">
-                <ul class="list-unstyled space-top-small">
+            <div class="grid-2 space-top">
+                <ul class="list-unstyled">
                     <li>
                         <i class="icon-twitter"></i>
                         <a href="http://twitter.com/drabiter" target="blank"><span class="text-small"> @drabiter</span></a>
@@ -84,44 +85,36 @@
                     <iframe src="http://githubbadge.appspot.com/badge/drabiter?a=0" style="border: 0;overflow: hidden;" frameBorder=0></iframe>
                 </div> -->
             </div>
-            <div class="grid-4">
-                <div class="offset-2 space-bottom-small space-top"><strong>Repositories I owned</strong></div>
-                <div class="row space-bottom-small">
-                    <div class="grid-2 text-right"><a href="https://github.com/drabiter/drinkboard" target="blank">DrinkBoard.local</a></div> 
-                    <div class="grid-4"><span class="text-small">Keep record on your drinking habit. Uses local storage to store data.</span></div>
-                </div>
-                <!-- <div class="row space-bottom-small">
-                    <div class="grid-2 text-right">
-                        <a href="https://github.com/drabiter/landing.do" target="blank">landing.do</a> 
-                    </div> 
-                    <div class="grid-4">
-                        <span class="text-small">My first static landing page template.</span>
+            <div class="grid-4 space-top">
+                <div class="offset-2"><strong>Repositories I owned</strong></div>
+                <div class="owned space-top">
+                    <div class="row">
+                        <div class="grid-2 text-right">
+                            <a href="https://github.com/drabiter/drinkboard" target="blank">DrinkBoard.local</a>
+                        </div> 
+                        <div class="grid-4">
+                            <span class="text-small">Keep record on your drinking habit. Uses local storage to store data.</span>
+                        </div>
                     </div>
-                </div>
-                <div class="row space-bottom-small">
-                    <div class="grid-2 text-right">
-                        <a href="https://github.com/drabiter/numbat" target="blank">numbat</a> 
-                    </div> 
-                    <div class="grid-4">
-                        <span class="text-small">"numbat" is my second landing page design. Feel free to use or modify it.</span>
-                    </div>
-                </div> -->
-                <div class="row space-bottom-small">
-                    <div class="grid-2 text-right">
-                        <a href="https://github.com/drabiter/magnet" target="blank">Magnet</a> 
-                    </div> 
-                    <div class="grid-4">
-                        <span class="text-small">Magnet is an open source puzzle game running on applet (and desktop). Part of GitHub Game Off 2012. (Full free version <a href="http://magnet.coffeefury.com" target="blank">here</a>)</span>
+                    <div class="row space-top-small">
+                        <div class="grid-2 text-right">
+                            <a href="https://github.com/drabiter/magnet" target="blank">Magnet</a> 
+                        </div> 
+                        <div class="grid-4">
+                            <span class="text-small">Magnet is an open source puzzle game running on applet (and desktop). Part of GitHub Game Off 2012. (Full free version <a href="http://magnet.coffeefury.com" target="blank">here</a>)</span>
+                        </div>
                     </div>
                 </div>
 
-				<div class="offset-2 space-bottom-small space-top"><strong>Repositories I contributed to</strong></div>
-                <div class="row space-bottom-small">
-                    <div class="grid-2 text-right">
-                        <a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="blank">frontend-dev-bookmarks</a> 
-                    </div> 
-                    <div class="grid-4">
-                        <span class="text-small">A huge list of frontend development resources I collected over time. Pull requests are welcome. Website coming soon.</span>
+                <div class="offset-2 space-top"><strong>Repositories I contributed to</strong></div>
+                <div class="owned space-top">
+                    <div class="row">
+                        <div class="grid-2 text-right">
+                            <a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="blank">frontend-dev-bookmarks</a> 
+                        </div> 
+                        <div class="grid-4">
+                            <span class="text-small">A huge list of frontend development resources I collected over time. Pull requests are welcome. Website coming soon.</span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,9 @@ body {
   color: #272727; 
   background: #ffffff;
   background-image: url('../img/white_wall_hash.png');
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
 }
 a {
 	color: #6d6d6d;
@@ -19,6 +22,13 @@ a {
 }
 .profile:hover:after {
   content: '}';
+}
+.inline-list li {
+  display: inline;
+  margin-left: 1rem;
+}
+.mobile-inline-list li {
+  padding-left: 2rem;
 }
 .container { 
   /*max-width: 80em;*/
@@ -44,8 +54,8 @@ img.avatar {
 	border: 0;
 }
 .copyright {
-  position: fixed;
-  bottom: 3rem;
+  position: absolute;
+  bottom: 1.25rem;
 }
 /*for desktop*/
 @media handheld, only screen and (max-width: 767px) {
@@ -56,5 +66,10 @@ img.avatar {
   .mobile-inline-list li {
     display: inline;
     margin-left: 1rem;
+    padding-left: inherit;
+  }
+  .copyright {
+    position: relative;
+    bottom: 0;
   }
 }

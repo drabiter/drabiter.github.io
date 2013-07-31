@@ -25,6 +25,10 @@ a.bubble:hover {
   -webkit-transform: translateX(-0.4em);
   -ms-transform: translateX(-0.4em);
   transform: translateX(-0.4em);
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  transition: all .15s linear;
 }
 .profile:hover:before {
   content: '{';

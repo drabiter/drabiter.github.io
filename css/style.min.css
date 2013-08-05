@@ -29,7 +29,7 @@ button,.btn{-webkit-appearance:none;text-decoration:none;vertical-align:middle;c
 .btn-dark{background-color:#444}.btn-dark:hover{background-color:#1e1e1e}
 .btn-light{background-color:#ccc}.btn-light:hover{background-color:#a6a6a6}
 .btn-bordered{border:.2rem solid #fff;border-radius:.5rem}.btn-bordered:hover{color:rgba(0,0,0,0)}
-.list-unstyled{margin-left:0;list-style:none}
+.list-unstyled{-webkit-padding-start:0;margin-left:0;list-style:none}
 a{color:inherit}
 .col-1-1,.col-3-3,.col-4-4,.col-5-5,.col-6-6,.col-12-12{width:100%}
 .col-4-5{width:80%}

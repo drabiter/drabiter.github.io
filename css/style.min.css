@@ -7,10 +7,12 @@ html,body{margin:0;height:100%;font-family:"Helvetica Neue",Arial,sans-serif;fon
 .grid-pad{padding:20px 0 20px 20px}
 .grid-pad>[class*='col-']:last-of-type{padding-right:20px}
 .text-small{font-size:.75rem}
-.no-space-top{margin-top:0;padding-top:0}
-.space-top-small{padding-top:1rem}
-.space-top{padding-top:2rem}
-.space-bottom{padding-bottom:2rem}
+.space-top{padding-top:2em}.space-top-small{padding-top:1em}
+.space-top-tiny{padding-top:.5em}
+.space-top-empty{padding-top:0}
+.sapce-bottom{padding-bottom:2em}.sapce-bottom-small{padding-bottom:1em}
+.sapce-bottom-tiny{padding-bottom:.5em}
+.sapce-bottom-empty{padding-bottom:0}
 .float-left{float:left}
 .float-center{float:none;margin-left:auto;margin-right:auto}
 .float-right{float:right}

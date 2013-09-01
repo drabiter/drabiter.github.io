@@ -2,12 +2,15 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 html,
 button,
 input,
 select,
 textarea {
-    color: #222;
+    /*color: #47545e;*/
+    color: #333;
 }
 
 body {
@@ -61,7 +64,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Oxygen', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -77,15 +80,14 @@ body {
     border-bottom: 20px solid #e44d26;
 }
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
+.footer-container {
+    border-top: 3px solid #47545e;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    /*background: #ffffff;*/
 }
 
 .title {
@@ -128,7 +130,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .main article h1 {
@@ -136,13 +138,14 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
+    color: #47545e;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
 }
 
 /* ===============
@@ -157,15 +160,72 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.intro {
+    width: 100%;
+    background-image: url('../img/geometry.png');
+    padding: 30px 0px;
+}
 
+.main h1 {
+    font-size: 3em;
+}
 
+.text-center {
+    text-align: center;
+}
 
+.icon-12x {
+    font-size: 12em;
+}
 
+.icon-9x {
+    font-size: 9em;
+}
 
+a .icon {
+    color: #333;
+    text-decoration: none;
+    margin-top: 25px;
+}
 
+a.social .icon {
+    margin-right: 33px;
+}
 
+a.border {
+    color: #47545e;
+    border: 3px solid #47545e;
+    padding: .3em 1em .3em 1em;
+    text-decoration: none;
+    margin-top: 3px;
+}
 
+a.border.dark {
+    color: #fff;
+    background-color: #47545e;
+}
 
+.weight-light {
+    font-weight: 300;
+}
+
+.weight-strong {
+    font-weight: 600;
+}
+
+.row {
+    display: block;
+}
+
+.github-ribbon {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.main .content-right {
+    text-align: center;
+}
 
 
 
@@ -218,9 +278,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
+        /*-webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;*/
     }
 
 /* ============
@@ -242,12 +302,27 @@ nav a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 28%;
     }
 
     .main aside {
         float: right;
-        width: 28%;
+        width: 57%;
+    }
+
+    .main .content-left {
+        float: left;
+        width: 33%;
+    }
+
+    .main .content-right {
+        float: right;
+        width: 66%;
+        text-align: left;
+    }
+
+    a.social .icon {
+        font-size: 1.5em;
     }
 }
 

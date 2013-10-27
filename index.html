@@ -14,104 +14,86 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <style>            
+            #slidr-ul {
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5rem;
+            }
+
+            li {
+                display: inline;
+                padding-left: 0;
+            }
+
+            #social-icons {
+                text-align: center;
+                margin-top: 3rem;
+            }
+
+            .social {
+                text-decoration: none;
+                color: #6d6d6d;
+                margin: 0 1.5rem;
+            }
+        </style>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- <div class="header-container">
-            <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div> -->
-
-        <div class="main-container">
-            <div class="intro">
-                <div class="main wrapper clearfix">
-
-                   <div class="content-left text-center">
-                        <i class="icon icon-male icon-12x"></i>
-                    </div>
-                    <div class="content-right">
-                        <h1 class="weight-strong">Hendra G.</h1>
-                        <h3>
-                            An active <i class="icon icon-code"></i> freelancer. Web applications and mobile games are what my work.
-                        </h3>
-                        <h2>
-                            <a href="http://github.com/drabiter" target="blank" class="social"><i class="icon icon-github"></i></a>
-                            <a href="http://twitter.com/drabiter" target="blank" class="social"><i class="icon icon-twitter"></i></a>
-                            <a href="https://plus.google.com/u/0/108235488765263052955" target="blank" class="social"><i class="icon icon-google-plus"></i></a>
-                            <a href="https://linked.in/drabiter" target="blank" class="social"><i class="icon icon-linkedin"></i></a>
-                            <a href="http://drabiter.roon.com" target="blank"><i class="icon icon-rss"></i></a>
-                        </h2>
-                    </div>
-                </div> <!-- #main -->
-            </div>
-
-             <div class="main wrapper clearfix">
-
-               <div class="content-left text-center">
-                    <a href="https://github.com/drabiter/lesssimplegrid" target="blank">
-                        <i class="icon icon-github-sign icon-9x"></i>
-                    </a>
-                </div>
-                <div class="content-right">
-                    <h2>lesssimplegrid</h2>
-                    <h3 class="weight-light">A not too, neither simple or bloated, grid CSS.</h3>
-                    <a href="http://drabiter.com/lesssimplegrid" target="blank" class="border">Visit page</a>
-                </div>
-
-            </div> <!-- #main -->
-
-            <div class="main wrapper clearfix">
-
-               <div class="content-left text-center">
-                    <a href="https://github.com/drabiter/brainf-ckme" target="blank"><i class="icon icon-github-sign icon-9x"></i></a>
-                </div>
-                <div class="content-right">
-                    <h2>brainf-ckme</h2>
-                    <h3 class="weight-light">JS Brainf*ck code interpreter. Available as Node module too.</h3>
-                    <a href="http://drabiter.com/brainf-ckme" target="blank" class="border">Visit page</a>
-                </div>
-
-            </div> <!-- #main -->
-
-            <div class="main wrapper clearfix">
-
-               <div class="content-left text-center">
-                    <a href="https://github.com/drabiter/magnet" target="blank"><i class="icon icon-github-sign icon-9x"></i></a>
-                </div>
-                <div class="content-right">
-                    <h2>magnet</h2>
-                    <h3 class="weight-light">Magnet is an open source puzzle game running on applet (and desktop). Part of GitHub Game Off 2012.</h3>
-                    <a href="http://magnet.coffeefury.com/" target="blank" class="border">Visit page</a>
-                </div>
-
-            </div> <!-- #main -->
-
-        </div> <!-- #main-container -->
-
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3>&copy 2013</h3>
-            </footer>
+        <div id="slidr-ul">
+            <li data-slidr="profile">
+                <div data-height="150" data-width="400" data-user="drabiter" class="github-card"></div>
+            </li>
+            <li data-slidr="tomat">
+                <div data-height="150" data-width="400" data-repo="tomat" data-user="drabiter" class="github-card"></div>
+            </li>
+            <li data-slidr="lesssimplegrid">
+                <div data-height="150" data-width="400" data-repo="lesssimplegrid" data-user="drabiter" class="github-card"></div>
+            </li>
+            <li data-slidr="brainf-ckme">
+                <div data-height="150" data-width="400" data-repo="brainf-ckme" data-user="drabiter" class="github-card"></div>
+            </li>
+            <li data-slidr="magnet">
+                <div data-height="150" data-width="400" data-repo="magnet" data-user="drabiter" class="github-card"></div>
+            </li>
         </div>
 
-        <a class="github-ribbon" href="http://github.com/drabiter"><img class="fork" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+        <ul id="social-icons">
+            <li>
+                <a href="http://github.com/drabiter" target="blank" class="social"><i class="icon icon-github"></i></a>
+            </li>
+            <li>
+                <a href="http://twitter.com/drabiter" target="blank" class="social"><i class="icon icon-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/u/0/108235488765263052955" target="blank" class="social"><i class="icon icon-google-plus"></i></a>
+            </li>
+            <li>
+                <a href="https://linked.in/drabiter" target="blank" class="social"><i class="icon icon-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="http://drabiter.roon.com" target="blank" class="social"><i class="icon icon-rss"></i></a>
+            </li>
+        </ul>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
+        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+        <script src="js/slidr.min.js"></script>
+
+        <script>
+            slidr.create('slidr-ul', {
+                breadcrumbs: true,
+                controls: 'none',
+                theme: '#666'
+            }).start();
+        </script>
 
         <script>
             var _gaq=[['_setAccount','UA-34867032-1'],['_trackPageview']];

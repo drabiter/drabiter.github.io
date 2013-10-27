@@ -2,15 +2,12 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
-
 html,
 button,
 input,
 select,
 textarea {
-    /*color: #47545e;*/
-    color: #333;
+    color: #222;
 }
 
 body {
@@ -59,173 +56,19 @@ textarea {
 }
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-body {
-    font: 16px/26px 'Oxygen', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
-
-.footer-container {
-    border-top: 3px solid #47545e;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    /*background: #ffffff;*/
-}
-
-.title {
-    color: white;
-}
-
-/* ==============
-    MOBILE: Menu
-   ============== */
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* ==============
-    MOBILE: Main
-   ============== */
-
-.main {
-    padding: 15px 0;
-}
-
-.main article h1 {
-    font-size: 2em;
-}
-
-.main aside {
-    padding: 0px 5% 10px;
-}
-
-.footer-container footer {
-    color: #47545e;
-    padding: 0;
-    margin-top: 30px;
-    text-align: center;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-
-.ie7 .title {
-    padding-top: 20px;
-}
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-.intro {
-    width: 100%;
-    background-image: url('../img/geometry.png');
-    padding: 30px 0px;
-}
 
-.main h1 {
-    font-size: 3em;
-}
 
-.text-center {
-    text-align: center;
-}
 
-.icon-12x {
-    font-size: 12em;
-}
 
-.icon-9x {
-    font-size: 9em;
-}
 
-a .icon {
-    color: #333;
-    text-decoration: none;
-    margin-top: 25px;
-}
 
-a.social .icon {
-    margin-right: 33px;
-}
 
-a.border {
-    color: #47545e;
-    border: 3px solid #47545e;
-    padding: .3em 1em .3em 1em;
-    text-decoration: none;
-    margin-top: 3px;
-}
 
-a.border.dark {
-    color: #fff;
-    background-color: #47545e;
-}
 
-.weight-light {
-    font-weight: 300;
-}
-
-.weight-strong {
-    font-weight: 600;
-}
-
-.row {
-    display: block;
-}
-
-.github-ribbon {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-}
-
-.main .content-right {
-    text-align: center;
-}
 
 
 
@@ -235,107 +78,15 @@ a.border.dark {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 35em) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
 }
 
-@media only screen and (min-width: 768px) {
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        /*-webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;*/
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 28%;
-    }
-
-    .main aside {
-        float: right;
-        width: 57%;
-    }
-
-    .main .content-left {
-        float: left;
-        width: 33%;
-    }
-
-    .main .content-right {
-        float: right;
-        width: 66%;
-        text-align: left;
-    }
-
-    a.social .icon {
-        font-size: 1.5em;
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
 }
 
 /* ==========================================================================

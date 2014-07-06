@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Vegur-regular';
+  src: url('../fonts/Vegur-Regular.otf');
+}
+body {
+  background: #3f3f3f;
+  color: white;
+  font-family: 'Vegur-regular';
+}
+.main {
+  display: -webkit-flex;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  min-height: 75%;
+}
+.content {
+  max-width: 50%;
+}
+.logo {
+  margin-bottom: .2em;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  border: 3px solid #ffffff;
+}
+.hcenter {
+  text-align: center;
+}
+.margin-top {
+  margin-top: 2em;
+}
+i.fa {
+  margin-left: .25em;
+  margin-right: .25em;
+}
+a {
+  color: inherit;
+}

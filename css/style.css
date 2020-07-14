@@ -1,11 +1,8 @@
-@font-face {
-  font-family: 'Vegur-regular';
-  src: url('../fonts/Vegur-Regular.otf');
-}
 body {
   background: #3f3f3f;
   color: white;
-  font-family: 'Vegur-regular';
+  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 .main {
   display: -moz-box;
